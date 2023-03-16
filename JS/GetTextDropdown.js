@@ -1,7 +1,7 @@
 const e = document.getElementById("scoop1");
 const f = document.getElementById("scoop2");
-const g = document.getElementById("scoop3")
-const h = document.getElementById("scoop4")
+const g = document.getElementById("scoop3");
+const h = document.getElementById("scoop4");
 
 const w = document.getElementById("order");
 
@@ -19,15 +19,3 @@ function onChange() {
     const price4 = h.options[h.selectedIndex].value;
     document.getElementById("price").innerHTML = "€" + (Number(price1) + Number(price2) + Number(price3) + Number(price4));
 }
-
-e.onchange = onChange;
-onChange();
-
-f.onchange = onChange;
-onChange();
-
-g.onchange = onChange;
-onChange();
-
-h.onchange = onChange;
-onChange();

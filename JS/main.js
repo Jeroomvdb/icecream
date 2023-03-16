@@ -14,12 +14,19 @@ async function IncludeJavascript(filename){
 IncludeJavascript('JS/PageSlide.js');
 IncludeJavascript('JS/ShowHideFlavorPickerCup.js');
 IncludeJavascript('JS/GetTextDropdown.js');
-IncludeJavascript('JS/ShowCupScone.js');
+//IncludeJavascript('JS/ShowCupScone.js');
+IncludeJavascript('JS/ShowCone.js');
+
+
 
 
 window.onload = ()=>{ // html event
     
-    
+  
+
+
+
+
     
     //console.log(message)
     //console.log(GetName('John Doe'))

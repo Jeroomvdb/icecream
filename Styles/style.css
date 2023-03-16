@@ -80,27 +80,37 @@ select {
   font-size: 70px;
 }
 
-#cone1scoop {
-  height: 50%;
+#cone1 {
   display: none;
+  height: 40%;
 }
 
-#cone2scoop {
-  height: 50%;
+#cone2 {
   display: none;
+  height: 40%;
 }
 
-#cone3scoop {
+#cone3 {
   display: none;
-  height: 50%;
+  height: 40%;
 }
 
-#cone {
-  width: 20%;
+#cup1 {
   display: none;
+  height: 40%;
 }
 
-#cup {
-  width: 20%;
+#cup2 {
   display: none;
+  height: 40%;
+}
+
+#cup3 {
+  display: none;
+  height: 40%;
+}
+
+#cup4 {
+  display: none;
+  height: 40%;
 }/*# sourceMappingURL=style.css.map */
