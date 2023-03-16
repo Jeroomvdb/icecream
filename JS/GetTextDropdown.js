@@ -18,3 +18,4 @@ function onChange() {
     const price3 = g.options[g.selectedIndex].value;
     const price4 = h.options[h.selectedIndex].value;
     document.getElementById("price").innerHTML = "€" + (Number(price1) + Number(price2) + Number(price3) + Number(price4));
+}
