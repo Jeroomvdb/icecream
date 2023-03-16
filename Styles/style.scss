@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.pages{
+    display: flex;
+    width: 500%;
+    box-sizing: border-box;
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 1s;
+}
+
+.one{
+    background-color: #FFACAC;
+}
+
+.two{
+    background-color: #FFBFA9;
+}
+
+.three{
+    background-color: #FFEBB4;
+}
+
+.four{
+    background-color: #FBFFB1;
+}
+
+.five{
+    background-color: #b1ffbd;
+}
+
+button{
+    height: 90px;
+    width: 140px;
+}
+
+select{
+    height: 80px;
+    width: 200px;
+}
+
+.flavorfour{
+    display: none;
+}
+
+.one h1{
+    color: white;
+    font-size: 60px;
+}
+
+.one button{
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    height: 90px;
+    transition-property: font-size;
+    transition-duration: 400ms;
+    transition-timing-function: linear;
+}
+
+.one button:hover{
+    font-size: 70px;
+}
+
+
+#cone1scoop{
+    height: 50%;
+    display: none;
+}
+
+
+#cone2scoop{
+    height: 50%;
+    display: none;
+}
+
+
+#cone3scoop{
+    display: none;
+    height: 50%;
+}
+
+
+
+
+
+
+#cone{
+    width: 20%;
+    display: none;
+}
+
+#cup{
+    width: 20%;
+    display: none;
+}
+

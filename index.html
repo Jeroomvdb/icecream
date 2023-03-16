@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>My Ice Cream Shop</title>
+</head>
+
+<body>   
+    <div class="container">
+        <div class="pages">
+            <div class="page one">
+                <h1>Do you want an ice cream?</h1>
+                <div>
+                    <button onclick="slide('next')">Yes!</button>
+                </div>
+            </div>
+            <div class="page two">
+                <h1>Do you want a cup or a scone?</h1>
+                <div>
+                    <button onclick="slide('next') ; displayflavorcup(); displaycup();">Cup (max 4 scoops)</button>
+                    <button onclick="slide('next') ; displaycone();">Scone (max 3 scoops)</button>
+                </div>
+                <div>
+                    <button onclick="slide('prev')">Go back</button>
+                </div>
+            </div>
+            <div class="page three">
+                <h1>Choose your favorite flavors!</h1>
+                <h2>(€2/scoop)</h2>
+                <div>
+                    <form>
+                        <select id="scoop1">
+                            <option value="" disabled selected hidden>Pick your flavor</option>
+                            <option value="2" class="vanillataste">Vanilla</option>
+                            <option value="2">Chocolate</option>
+                            <option value="2">Strawberry</option>
+                        </select>
+                    </form>
+                    <form>
+                        <select id="scoop2">
+                            <option value="" disabled selected hidden>Pick your flavor</option>
+                            <option value="2">Vanilla</option>
+                            <option value="2">Chocolate</option>
+                            <option value="2">Strawberry</option>
+                            <option value="">That's enough for me</option>
+                        </select>
+                    </form>
+                    <form>
+                        <select id="scoop3">
+                            <option value="" disabled selected hidden>Pick your flavor</option>
+                            <option value="2">Vanilla</option>
+                            <option value="2">Chocolate</option>
+                            <option value="2">Strawberry</option>
+                            <option value="0" class="prijsniets">That's enough for me</option>
+                        </select>
+                    </form>
+                    <form class="flavorfour">
+                        <select id="scoop4">
+                            <option value="" disabled selected hidden>Pick your flavor</option>
+                            <option value="2">Vanilla</option>
+                            <option value="2">Chocolate</option>
+                            <option value="2">Strawberry</option>
+                            <option value="0">That's enough for me</option>
+                        </select>
+                    </form>
+                </div>
+                <div>
+                    <button onclick="slide('prev') ; nodisplayflavorcup();">Prev</button>
+                    <button onclick="slide('prev') ; nodisplayflavorcup();" id="addtocart">Order more</button>
+                    <button onclick="slide('next')">Pay</button>
+                </div>
+            </div>
+            <div class="page four">
+                <h1>Don't forget to pay!</h1>
+                <div>
+                    <h2 id="order">order</h2>
+                    <h2 id="price">price</h2>
+                </div>
+                <div>
+                    <button onclick="slide('prev')">Prev</button>
+                    <button onclick="slide('next')">Purchase</button>
+                </div>
+            </div>
+            <div class="page five">
+                <h1>Eat fast! Don't let it melt!</h1>
+                
+                <img src="Img/ConeTest1.png" id="cone1scoop">
+                <img src="Img/ConeTest2.png" id="cone2scoop">
+                <img src="Img/ConeTest3.png" id="cone3scoop">
+
+
+
+                <img src="Img/Cone.png" id="cone">
+                <img src="Img/Cup.png" id="cup">-->
+                
+                <div>
+                    <button onclick="slide('prev')">Prev</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
