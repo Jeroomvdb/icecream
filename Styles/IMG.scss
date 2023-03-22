@@ -1,0 +1,231 @@
+.coneImg{
+    display: none;
+    height: 40%;
+    position: relative;
+}
+
+.cupImg{
+    display: none;
+    height: 40%;
+    position: relative;
+}
+
+.scoops{
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    display: none;
+}
+
+/* SCOOPS CONE */
+
+#vScone1 {
+    height: 170px;
+    width: 170px;
+    background-color: $Vanilla;
+    translate: -4px -90px;
+  }
+
+  #cScone1 {
+    height: 170px;
+    width: 170px;
+    background-color: $Chocolate;
+    translate: -4px -90px;
+  }
+
+  #sScone1 {
+    height: 170px;
+    width: 170px;
+    background-color: $Strawberry;
+    translate: -4px -90px;
+  }
+
+#vScone2Left {
+    height: 95px;
+    width: 95px;
+    background-color: $Vanilla;
+    translate: -42px -79px;
+  }
+
+  #cScone2Left {
+    height: 95px;
+    width: 95px;
+    background-color: $Chocolate;
+    translate: -42px -79px;
+  }
+
+  #sScone2Left {
+    height: 95px;
+    width: 95px;
+    background-color: $Strawberry;
+    translate: -42px -79px;
+  }
+
+  #vScone2Right {
+    height: 95px;
+    width: 95px;
+    background-color: $Vanilla;
+    translate: 40px -79px;
+  }
+
+  #cScone2Right {
+    height: 95px;
+    width: 95px;
+    background-color: $Chocolate;
+    translate: 40px -79px;
+  }
+
+  #sScone2Right {
+    height: 95px;
+    width: 95px;
+    background-color: $Strawberry;
+    translate: 40px -79px;
+  }
+
+  #vScone3top{
+    height: 95px;
+    width: 95px;
+    background-color: $Vanilla;
+    translate: 10px -130px;
+  }
+
+  #cScone3top{
+    height: 95px;
+    width: 95px;
+    background-color: $Chocolate;
+    translate: 10px -130px;
+  }
+
+  #sScone3top{
+    height: 95px;
+    width: 95px;
+    background-color: $Strawberry;
+    translate: 10px -130px;
+  }
+
+/* SCOOPS CUP */
+
+#vCup1 {
+  height: 90px;
+  width: 90px;
+  background-color: $Vanilla;
+  translate: -4px -45px;
+}
+
+#cCup1 {
+  height: 90px;
+  width: 90px;
+  background-color: $Chocolate;
+  translate: -4px -45px;
+}
+
+#sCup1 {
+  height: 90px;
+  width: 90px;
+  background-color: $Strawberry;
+  translate: -4px -45px;
+}
+
+#vCup2Right {
+  height: 90px;
+  width: 90px;
+  background-color: $Vanilla;
+  translate: 35px -45px;
+}
+
+#cCup2Right {
+  height: 90px;
+  width: 90px;
+  background-color: $Chocolate;
+  translate: 35px -45px;
+}
+
+#sCup2Right {
+  height: 90px;
+  width: 90px;
+  background-color: $Strawberry;
+  translate: 35px -45px;
+}
+
+#vCup2Left {
+  height: 90px;
+  width: 90px;
+  background-color: $Vanilla;
+  translate: -45px -60px;
+}
+
+#cCup2Left {
+  height: 90px;
+  width: 90px;
+  background-color: $Chocolate;
+  translate: -45px -60px;
+}
+
+#sCup2Left {
+  height: 90px;
+  width: 90px;
+  background-color: $Strawberry;
+  translate: -45px -60px;
+}
+
+#vCup3 {
+  height: 90px;
+  width: 90px;
+  background-color: $Vanilla;
+  translate: -10px -100px;
+}
+
+#cCup3 {
+  height: 90px;
+  width: 90px;
+  background-color: $Chocolate;
+  translate: -10px -100px;
+}
+
+#sCup3 {
+  height: 90px;
+  width: 90px;
+  background-color: $Strawberry;
+  translate: -10px -100px;
+}
+
+#vCup4Left{
+  height: 90px;
+  width: 90px;
+  background-color: $Vanilla;
+  translate: -30px -80px;
+}
+
+#cCup4Left{
+  height: 90px;
+  width: 90px;
+  background-color: $Chocolate;
+  translate: -30px -80px;
+}
+
+#sCup4Left{
+  height: 90px;
+  width: 90px;
+  background-color: $Strawberry;
+  translate: -30px -80px;
+}
+
+#vCup4Right{
+  height: 90px;
+  width: 90px;
+  background-color: $Vanilla;
+  translate: 15px -100px;
+}
+
+#cCup4Right{
+  height: 90px;
+  width: 90px;
+  background-color: $Chocolate;
+  translate: 15px -100px;
+}
+
+#sCup4Right{
+  height: 90px;
+  width: 90px;
+  background-color: $Strawberry;
+  translate: 15px -100px;
+}

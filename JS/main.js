@@ -13,9 +13,10 @@ async function IncludeJavascript(filename){
 
 IncludeJavascript('JS/PageSlide.js');
 IncludeJavascript('JS/ShowHideFlavorPickerCup.js');
+IncludeJavascript('JS/UndisableListPicker.js');
 IncludeJavascript('JS/GetTextDropdown.js');
-//IncludeJavascript('JS/ShowCupScone.js');
 IncludeJavascript('JS/ShowCone.js');
+IncludeJavascript('JS/reload.js');
 
 
 

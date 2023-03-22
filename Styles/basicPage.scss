@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.pages{
+    display: flex;
+    width: 500%;
+    box-sizing: border-box;
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 1s;
+}
+
+.one{
+    background-color: $PrimaryOne;
+}
+
+.two{
+    background-color: $PrimaryTwo;
+}
+
+.three{
+    background-color: $PrimaryThree;
+}
+
+.four{
+    background-color: $PrimaryFour;
+}
+
+.five{
+    background-color: $PrimaryFive;
+}
+
+h1{
+    color: $Text;
+    font-size: 60px;
+}
+
+h2{
+    color: $Text;
+}
+
+button{
+    height: 90px;
+    width: 140px;
+}
