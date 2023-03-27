@@ -7,7 +7,7 @@
 .pages{
     display: flex;
     width: 500%;
-    box-sizing: border-box;
+    
 }
 
 .page{
@@ -53,4 +53,8 @@ h2{
 button{
     height: 90px;
     width: 140px;
+}
+
+button:hover{
+    cursor: pointer;
 }

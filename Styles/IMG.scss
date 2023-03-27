@@ -16,31 +16,34 @@
     display: none;
 }
 
-/* SCOOPS CONE */
+/* 1 SCOOPS CONE */
 
 #vScone1 {
-    height: 170px;
-    width: 170px;
+    height: 6.5rem;
+    width: 6.5rem;
     background-color: $Vanilla;
-    translate: -4px -90px;
+    translate: -4px -55px;
   }
 
   #cScone1 {
-    height: 170px;
-    width: 170px;
+    height: 115px;
+    width: 115px;
     background-color: $Chocolate;
-    translate: -4px -90px;
+    translate: -4px -60px;
   }
 
   #sScone1 {
-    height: 170px;
-    width: 170px;
+    height: 115px;
+    width: 115px;
     background-color: $Strawberry;
-    translate: -4px -90px;
+    translate: -4px -60px;
   }
 
+
+/* 2 SCOOPS CONE */
+
 #vScone2Left {
-    height: 95px;
+    height: px;
     width: 95px;
     background-color: $Vanilla;
     translate: -42px -79px;

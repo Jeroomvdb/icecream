@@ -14,6 +14,7 @@ async function IncludeJavascript(filename){
 IncludeJavascript('JS/PageSlide.js');
 IncludeJavascript('JS/ShowHideFlavorPickerCup.js');
 IncludeJavascript('JS/UndisableListPicker.js');
+IncludeJavascript('JS/changeFlavorPickColor');
 IncludeJavascript('JS/GetTextDropdown.js');
 IncludeJavascript('JS/ShowCone.js');
 IncludeJavascript('JS/reload.js');
@@ -24,7 +25,6 @@ IncludeJavascript('JS/reload.js');
 window.onload = ()=>{ // html event
     
   
-
 
 
 

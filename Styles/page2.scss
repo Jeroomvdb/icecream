@@ -1,25 +1,23 @@
-#cup{
+.two{
+  #cup{
     height: 250px;
-}
+  }
 
-#cone{
+  #cone{
     height: 250px;
-}
+  }
 
-.pickContainer{
+  .pickContainer{
     height: 250px;
     width: 250px;
     background-color: transparent;
     border: none;
     margin-top: 65px;
-    margin-bottom: 65px;
     margin-right: 30px;
     margin-left: 30px;
-    color: $Text;
-}
-
-.pickContainer:hover{
-    img:hover {
+    color: $PrimaryFour;
+    font-size: 22px;
+    img {
         animation: shake 2s;
         animation-iteration-count: infinite;
       }
@@ -37,4 +35,37 @@
         90% { transform: translate(1px, 2px) rotate(0deg); }
         100% { transform: translate(1px, -2px) rotate(-1deg); }
       }
+  }
+
+  .pickContainer:hover{
+    img:hover {
+        animation: shake 0.8s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+  }
+
+  h1{
+    color: $PrimaryFour;
+  }
+
 }
+
+
+
+
+
+

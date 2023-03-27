@@ -1,6 +1,9 @@
 select {
   height: 80px;
   width: 200px;
+  border: none;
+  margin: 10px;
+  background-color: yellow;
 }
 
 .flavorfour {

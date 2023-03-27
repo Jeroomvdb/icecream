@@ -13,14 +13,14 @@
         <div class="pages">
             <!-- LANDING -->
             <div class="page one">
-                <h1>Do you want an ice cream?</h1>
+                <h1>Want an ice cream?</h1>
                 <div>
                     <button onclick="slide('next')">Yes!</button>
                 </div>
             </div>
             <!-- PICK CUP/SCONE -->
             <div class="page two">
-                <h1>Do you want a cup or a scone?</h1>
+                <h1>Cup or scone?</h1>
                 <div>
                     <button onclick="slide('next') ; displayflavorcup(); displaycup();" class="pickContainer"><img src="Img/PNG/Cup.png" id="cup">(max 4 scoops)</button>
                     <button onclick="slide('next') ; displaycone();" class="pickContainer"><img src="Img/PNG/Cone.png" id="cone">(max 3 scoops)</button>
@@ -31,11 +31,11 @@
             </div>
             <!-- PICK TASTE -->
             <div class="page three">
-                <h1>Choose your favorite flavors!</h1>
+                <h1>Pick favorite flavors!</h1>
                 <h2>(€2/scoop)</h2>
                 <div>
                     <form>
-                        <select id="scoop1" onchange="undisableScoop2()">
+                        <select id="scoop1" onchange="undisableScoop2() ; changeFlavorPickColor1();">
                             <option value="" disabled selected hidden>Pick your flavor</option>
                             <option value="2">Vanilla</option>
                             <option value="2">Chocolate</option>
@@ -43,7 +43,7 @@
                         </select>
                     </form>
                     <form>
-                        <select id="scoop2" disabled onchange="undisableScoop3()">
+                        <select id="scoop2" disabled onchange="undisableScoop3() ; changeFlavorPickColor2()">
                             <option value="" disabled selected hidden>Pick your flavor</option>
                             <option value="2">Vanilla</option>
                             <option value="2">Chocolate</option>
@@ -52,7 +52,7 @@
                         </select>
                     </form>
                     <form>
-                        <select id="scoop3" disabled onchange="undisableScoop4() ; disableChoice(); enableChoice();">
+                        <select id="scoop3" disabled onchange="undisableScoop4() ; disableChoice(); enableChoice(); changeFlavorPickColor3();">
                             <option value="" disabled selected hidden>Pick your flavor</option>
                             <option value="2">Vanilla</option>
                             <option value="2">Chocolate</option>
@@ -60,7 +60,7 @@
                             <option value="0" class="prijsniets" id="scoop3enough">That's enough for me</option>
                         </select>
                     </form>
-                    <form class="flavorfour" onchange="disableChoice2(); enableChoice2()">
+                    <form class="flavorfour" onchange="disableChoice2(); enableChoice2(); changeFlavorPickColor4()">
                         <select id="scoop4" disabled>
                             <option value="" disabled selected hidden>Pick your flavor</option>
                             <option value="2">Vanilla</option>
@@ -71,25 +71,25 @@
                     </form>
                 </div>
                 <div>
-                    <button onclick="slide('prev') ; nodisplayflavorcup(); disable();">Prev</button>
-                    <button onclick="slide('next') ; onChange();">Pay</button>
+                    <button class="left" onclick="slide('prev') ; nodisplayflavorcup(); disable();"><img src="Icon\Back.svg" class="back"/></button>
+                    <button class="right" onclick="slide('next') ; onChange();"><img src="Icon\Pay.svg" id="pay"/></button>
                 </div>
             </div>
             <!-- PAY -->
             <div class="page four">
-                <h1>Don't forget to pay!</h1>
-                <div>
+                <h1>It's payday!</h1>
+                <div id="orderprice">
                     <h2 id="order"></h2>
                     <h2 id="price"></h2>
                 </div>
                 <div>
-                    <button onclick="slide('prev')">Prev</button>
+                    <button onclick="slide('prev')">Change flavors</button>
                     <button onclick="slide('next') ; showImg();">Purchase</button>
                 </div>
             </div>
             <!-- IMG -->
             <div class="page five">
-                <h1>Eat fast! Don't let it melt!</h1>
+                <h1>Don't let it melt!</h1>
                 
                 <!--SCOOPS SCONE-->
                 <div id="vScone1" class="scoops"></div>
@@ -138,7 +138,7 @@
 
                 <!--<button onclick="slide('prev') ; hideImg();">Prev</button>-->
                 <div>
-                    <button onclick="reload();">Prev</button>
+                    <button id="turn" onclick="reload();">More ice cream fun!</button>
                 </div>
             </div>
         </div>

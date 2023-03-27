@@ -1,0 +1,25 @@
+.four{
+    h1{
+        color: $PrimaryTwo;
+    }
+
+    button{
+        height: 80px;
+        width: 200px;
+        border: none;
+        margin: 10px;
+        background-color: $PrimaryTwo;
+        border-radius: 50px;
+        color: $PrimaryFour;
+        font-weight: bold;
+    }
+
+    button:hover{
+        background-color: $PrimaryFive;
+        color: $PrimaryTwo;
+    }
+
+    #orderprice{
+        padding: 30px;
+    }
+}

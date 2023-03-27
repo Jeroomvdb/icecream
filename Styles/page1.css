@@ -1,0 +1,15 @@
+/*.one button{
+    background-color: transparent;
+    color: $Text;
+    font-size: 30px;
+    border: none;
+    height: 90px;
+    transition-property: font-size;
+    transition-duration: 400ms;
+    transition-timing-function: linear;
+}
+
+
+.one button:hover{
+    font-size: 70px;
+}*//*# sourceMappingURL=page1.css.map */

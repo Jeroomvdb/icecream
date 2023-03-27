@@ -1,0 +1,21 @@
+.five{
+    h1{
+        color: $Text;
+    }
+
+    button{
+        height: 80px;
+        width: 200px;
+        border: none;
+        margin: 10px;
+        background-color: $PrimaryTwo;
+        border-radius: 50px;
+        color: $PrimaryOne;
+        font-weight: bold;
+    }
+
+    #turn:hover{
+        background-color: $PrimaryOne;
+        color: $PrimaryTwo;
+      }
+}

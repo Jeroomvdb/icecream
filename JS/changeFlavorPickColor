@@ -1,0 +1,51 @@
+const fl1 = document.getElementById("scoop1");
+const fl2 = document.getElementById("scoop2");
+const fl3 = document.getElementById("scoop3");
+const fl4 = document.getElementById("scoop4");
+
+
+function changeFlavorPickColor1(){
+    if(fl1.options[fl1.selectedIndex].text === "Vanilla"){
+        fl1.style.backgroundColor = "#ffe6b4"
+    }else if(fl1.options[fl1.selectedIndex].text === "Chocolate"){
+        fl1.style.backgroundColor = "#9E7462"
+    }else if(fl1.options[fl1.selectedIndex].text === "Strawberry"){
+        fl1.style.backgroundColor = "#ffb5ef"
+    }
+};
+
+function changeFlavorPickColor2(){
+    if(fl2.options[fl2.selectedIndex].text === "Vanilla"){
+        fl2.style.backgroundColor = "#ffe6b4"
+    }else if(fl2.options[fl2.selectedIndex].text === "Chocolate"){
+        fl2.style.backgroundColor = "#9E7462"
+    }else if(fl2.options[fl2.selectedIndex].text === "Strawberry"){
+        fl2.style.backgroundColor = "#ffb5ef"
+    }else{
+        fl2.style.backgroundColor = "#f9f648"
+    }
+};
+
+function changeFlavorPickColor3(){
+    if(fl3.options[fl3.selectedIndex].text === "Vanilla"){
+        fl3.style.backgroundColor = "#ffe6b4"
+    }else if(fl3.options[fl3.selectedIndex].text === "Chocolate"){
+        fl3.style.backgroundColor = "#9E7462"
+    }else if(fl3.options[fl3.selectedIndex].text === "Strawberry"){
+        fl3.style.backgroundColor = "#ffb5ef"
+    }else{
+        fl3.style.backgroundColor = "#f9f648"
+    }
+};
+
+function changeFlavorPickColor4(){
+    if(fl4.options[fl4.selectedIndex].text === "Vanilla"){
+        fl4.style.backgroundColor = "#ffe6b4"
+    }else if(fl4.options[fl4.selectedIndex].text === "Chocolate"){
+        fl4.style.backgroundColor = "#9E7462"
+    }else if(fl4.options[fl4.selectedIndex].text === "Strawberry"){
+        fl4.style.backgroundColor = "#ffb5ef"
+    }else{
+        fl4.style.backgroundColor = "#f9f648"
+    }
+};
